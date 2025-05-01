@@ -1,0 +1,47 @@
+# Arquivos específicos do projeto
+input/*
+output/md/*
+output/logs/*
+.env
+
+# Manter os diretórios vazios com .gitkeep
+!input/.gitkeep
+!output/md/.gitkeep
+!output/logs/.gitkeep
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de ambiente virtual
+venv/
+ENV/
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

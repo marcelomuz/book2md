@@ -1,0 +1,6 @@
+# book2md config
+input_dir: "input"
+output_md: "output/md"
+output_logs: "output/logs"
+retry_attempts: 2
+watch_mode: false
